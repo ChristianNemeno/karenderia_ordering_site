@@ -18,7 +18,7 @@ A modern, responsive food ordering website built with React for learning purpose
 - **State Management**: React useState/useContext (no external libraries needed)
 - **Routing**: React Router (optional for multi-page feel)
 
-## Project Structure
+## Project Structure sample
 ```
 food-ordering-app/
 ├── public/
@@ -210,5 +210,3 @@ After completing each phase, ask yourself:
 - Responsive design works on all devices
 - Code is clean and well-organized
 - App is accessible and user-friendly
-
-Remember: This is a learning project, so focus on understanding concepts rather than perfection. Break down large tasks into smaller ones, and don't hesitate to experiment with different approaches!
