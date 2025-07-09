@@ -9,10 +9,11 @@ body {
 }
 
 #root {
-  /* Removed max-width and margin: 0 auto to allow full width */
-  padding: 0; /* Remove padding here as sections will handle their own */
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0; 
   text-align: center;
-  background-color: transparent; /* Ensure #root does not obscure the body gradient */
+  background-color: transparent; 
 }
 
 .logo {
