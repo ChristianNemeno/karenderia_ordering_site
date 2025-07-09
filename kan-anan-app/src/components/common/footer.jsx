@@ -1,33 +1,34 @@
 import React from 'react';
+import '../../styles/components/common/footer.css';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-800 text-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <footer className="footer">
+      <div className="footer-container">
+        <div className="footer-grid">
           <div>
-            <h3 className="text-xl font-bold mb-4">Laarni's</h3>
-            <p className="text-gray-300">
+            <h3 className="footer-heading">Laarni's</h3>
+            <p className="footer-text">
               Lutong bahay na makabuhay.
             </p>
           </div>
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-gray-300">
-              <li><a href="#menu" className="hover:text-white">Menu</a></li>
-              <li><a href="#about" className="hover:text-white">About Us</a></li>
-              <li><a href="#contact" className="hover:text-white">Contact</a></li>
+            <h4 className="footer-heading">Quick Links</h4>
+            <ul className="quick-links-list">
+              <li><a href="#menu" className="quick-link">Menu</a></li>
+              <li><a href="#about" className="quick-link">About Us</a></li>
+              <li><a href="#contact" className="quick-link">Contact</a></li>
             </ul>
           </div>
           <div>
-            <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
-            <p className="text-gray-300">
+            <h4 className="footer-heading">Contact Info</h4>
+            <p className="footer-text">
               Phone: (555) 123-4567<br />
               Email: info@foodiehub.com
             </p>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-8 pt-4 text-center text-gray-400">
+        <div className="footer-bottom">
           <p>&copy; 2024 FoodieHub. All rights reserved.</p>
         </div>
       </div>

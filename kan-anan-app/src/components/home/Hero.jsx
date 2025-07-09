@@ -1,24 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom"; 
 import bg from '../../assets/bg.jpg';
+import '../../styles/components/home/Hero.css';
+
 const Hero = ()  => {
   return (
     <section
-      className="relative h-[90vh] flex items-center justify-center text-white bg-cover bg-center"
+      className="hero-section"
       style={{ backgroundImage: `url(${bg})` }}
     >
-      <div className="bg-black/50 absolute inset-0 z-0"></div>
+      <div className="hero-overlay"></div>
 
-      <div className="z-10 text-center px-4 max-w-2xl">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+      <div className="hero-content">
+        <h1 className="hero-title">
           Authentic Flavors, Delivered.
         </h1>
-        <p className="text-lg md:text-xl mb-6">
+        <p className="hero-subtitle">
           Taste the tradition in every bite – fresh, fast, and unforgettable.
         </p>
         <Link
           to="/menu"
-          className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-full transition duration-300"
+          className="hero-button"
         >
           View Full Menu
         </Link>

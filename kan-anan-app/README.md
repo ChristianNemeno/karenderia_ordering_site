@@ -7,13 +7,13 @@ A modern, responsive food ordering website built with React for learning purpose
 - Master React functional components and hooks
 - Practice state management with useState and useEffect
 - Learn component composition and reusability
-- Implement responsive design with CSS/Tailwind
+- Implement responsive design with CSS
 - Handle user interactions and form management
 - Practice modern JavaScript (ES6+) features
 
 ## Tech Stack
 - **Frontend**: React 18+ with Vite
-- **Styling**: Tailwind CSS or CSS Modules
+- **Styling**: CSS
 - **Icons**: React Icons or Lucide React
 - **State Management**: React useState/useContext (no external libraries needed)
 - **Routing**: React Router (optional for multi-page feel)
@@ -55,7 +55,7 @@ food-ordering-app/
 
 ### Day 1-2: Environment Setup
 - [X] Create React app with Vite (`npm create vite@latest food-ordering-app -- --template react`)
-- [X] Install necessary dependencies (Tailwind CSS, React Icons)
+- [X] Install necessary dependencies (React Icons)
 - [X] Set up basic folder structure
 - [X] Create initial components (Header, Footer, App)
 - [ ] Set up basic routing structure
@@ -199,8 +199,7 @@ After completing each phase, ask yourself:
 
 ## Resources for Learning
 - React official documentation
-- Tailwind CSS documentation
-- MDN Web Docs for JavaScript
+- MDN Web Docs for CSS and JavaScript
 - React Router documentation
 - Accessibility guidelines (WCAG)
 

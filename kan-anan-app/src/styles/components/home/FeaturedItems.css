@@ -1,0 +1,135 @@
+
+.featured-items-section {
+  padding: 4rem 0;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #4b5563;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.dish-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: box-shadow 300ms;
+}
+
+.dish-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.dish-image-container {
+  position: relative;
+  height: 12rem;
+  overflow: hidden;
+}
+
+.dish-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 300ms;
+}
+
+.dish-card:hover .dish-image {
+  transform: scale(1.05);
+}
+
+.dish-content {
+  padding: 1.5rem;
+}
+
+.dish-name {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.dish-description {
+  color: #4b5563;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.learn-more-button {
+  margin-top: 1rem;
+  color: #3b82f6;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  transition: color 200ms;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.learn-more-button:hover {
+  color: #1d4ed8;
+}
+
+.view-menu-button {
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 200ms;
+  border: none;
+  cursor: pointer;
+}
+
+.view-menu-button:hover {
+  background-color: #2563eb;
+}
+
+.mt-12 {
+    margin-top: 3rem;
+}
