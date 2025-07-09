@@ -1,6 +1,6 @@
 
 .footer {
-  background-color: #1f2937;
+  background-color: #212531; /* Solid dark theme color */
   color: white;
   padding: 2rem 0;
 }
@@ -30,7 +30,7 @@
 }
 
 .footer-text {
-  color: #d1d5db;
+  color: #b7a2c9; /* Lighter theme color */
 }
 
 .quick-links-list {
@@ -43,7 +43,7 @@
 }
 
 .quick-link {
-  color: #d1d5db;
+  color: #b7a2c9; /* Lighter theme color */
   text-decoration: none;
 }
 
@@ -52,9 +52,9 @@
 }
 
 .footer-bottom {
-  border-top: 1px solid #374151;
+  border-top: 1px solid #322f42; /* Slightly lighter dark theme color */
   margin-top: 2rem;
   padding-top: 1rem;
   text-align: center;
-  color: #9ca3af;
+  color: #b7a2c9; /* Lighter theme color */
 }

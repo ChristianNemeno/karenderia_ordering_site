@@ -1,6 +1,5 @@
-
 .header {
-  background-color: white;
+  background-color: #212531; /* Solid dark theme color */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -15,7 +14,7 @@
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #ea580c;
+  color: #4b3a70; /* Prominent theme color */
 }
 
 .main-nav {
@@ -30,12 +29,12 @@
 }
 
 .nav-link {
-  color: #374151;
+  color: #b7a2c9; /* Lighter theme color for links */
   text-decoration: none;
 }
 
 .nav-link:hover {
-  color: #ea580c;
+  color: #c5c3c4; /* Even lighter theme color on hover */
 }
 
 .header-actions {
@@ -53,18 +52,18 @@
 
 .cart-icon {
   font-size: 1.5rem;
-  color: #374151;
+  color: #b7a2c9; /* Lighter theme color for icon */
 }
 
 .cart-button:hover .cart-icon {
-  color: #ea580c;
+  color: #c5c3c4; /* Even lighter theme color on hover */
 }
 
 .cart-badge {
   position: absolute;
   top: -0.5rem;
   right: -0.5rem;
-  background-color: #ea580c;
+  background-color: #4b3a70; /* Prominent theme color */
   color: white;
   font-size: 0.75rem;
   border-radius: 9999px;

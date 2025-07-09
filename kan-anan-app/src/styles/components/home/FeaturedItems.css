@@ -1,8 +1,8 @@
 
 .featured-items-section {
   padding: 4rem 0;
-  background-color: #f9fafb;
   min-height: 100vh;
+  background-color: rgba(33, 37, 49, 0.9);
 }
 
 .container {
@@ -22,14 +22,14 @@
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 700;
-  color: #1f2937;
+  color: white; 
   margin-bottom: 1rem;
 }
 
 .section-subtitle {
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color: #4b5563;
+  color: white; 
   max-width: 48rem;
   margin: 0 auto;
 }
@@ -53,7 +53,7 @@
 }
 
 .dish-card {
-  background-color: white;
+  background-color: #322f42;
   border-radius: 0.5rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   overflow: hidden;
@@ -89,19 +89,19 @@
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 600;
-  color: #1f2937;
+  color: white; 
   margin-bottom: 0.5rem;
 }
 
 .dish-description {
-  color: #4b5563;
+  color: #b7a2c9; 
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
 .learn-more-button {
   margin-top: 1rem;
-  color: #3b82f6;
+  color: #b7a2c9; 
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -112,11 +112,11 @@
 }
 
 .learn-more-button:hover {
-  color: #1d4ed8;
+  color: #c5c3c4; 
 }
 
 .view-menu-button {
-  background-color: #3b82f6;
+  background-color: #4b3a70; 
   color: white;
   font-weight: 600;
   padding: 0.75rem 2rem;
@@ -127,7 +127,7 @@
 }
 
 .view-menu-button:hover {
-  background-color: #2563eb;
+  background-color: #322f42; 
 }
 
 .mt-12 {

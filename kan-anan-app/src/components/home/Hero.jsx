@@ -7,7 +7,6 @@ const Hero = () => {
   return (
     <section
       className="hero-section"
-      style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="hero-overlay"></div>
 

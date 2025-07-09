@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: url(../../../assets/bgAboutUs.jpg);
+  background-color: rgba(33, 37, 49, 0.9);
   background-size: cover;
   background-position: center;
 }
@@ -16,7 +16,7 @@
   text-align: center;
   padding: 0 1rem;
   max-width: 48rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(33, 37, 49, 0.9);
     padding: 2rem;
     border-radius: 0.5rem;
 }
