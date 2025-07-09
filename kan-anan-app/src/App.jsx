@@ -4,6 +4,7 @@ import Footer from './components/common/footer'
 import FeaturedItems from './components/home/FeaturedItems'
 import Hero from './components/home/Hero'
 import AnimatedSection from './components/common/AnimatedSection'
+import AboutUs from './components/home/AboutUs'
 
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
       </AnimatedSection>
       <AnimatedSection>
         <FeaturedItems />
+      </AnimatedSection>
+      <AnimatedSection>
+        <AboutUs />
       </AnimatedSection>
       <AnimatedSection>
         <Footer/>
