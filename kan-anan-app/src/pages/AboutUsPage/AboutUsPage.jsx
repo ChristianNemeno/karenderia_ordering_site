@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../styles/components/home/AboutUs.css';
+import './AboutUsPage.css'; // This import will need to be updated
 
-const AboutUs = () => {
+const AboutUsPage = () => {
   return (
     <section className="about-us-section">
       <div className="about-us-content">
@@ -14,4 +14,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default AboutUsPage;

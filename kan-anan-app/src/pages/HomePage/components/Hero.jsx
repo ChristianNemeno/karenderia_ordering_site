@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bg from '../../assets/bg.jpg';
-import '../../styles/components/home/Hero.css';
+import './Hero.css'; // This import will need to be updated
 
 const Hero = () => {
   return (
