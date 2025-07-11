@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DishCard = ({ dish }) => {
+const DishCard = ({ dish, onLearnMore }) => {
   return (
     <div className="dish-card">
       <div className="dish-image-container">
@@ -19,7 +19,7 @@ const DishCard = ({ dish }) => {
           {dish.description}
         </p>
 
-        <button className="learn-more-button">
+        <button className="learn-more-button" onClick={() => onLearnMore(dish)}>
           Learn More →
         </button>
       </div>

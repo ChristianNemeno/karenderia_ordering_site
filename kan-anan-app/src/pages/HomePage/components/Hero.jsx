@@ -57,7 +57,7 @@ const Hero = () => {
 
         <div className="hero-circle-visualization">
           <div className="hero-circle-main">
-            <div className="placeholder-image">More Content Here</div>
+            <div className="placeholder-image"></div>
             
             <div className="profile-image profile-1"></div>
             <div className="profile-image profile-2"></div>
