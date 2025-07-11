@@ -1,13 +1,42 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import './Hero.css'; // This import will need to be updated
+import './Hero.css'; 
 
 const Hero = () => {
+  const sparkleRef = useRef(null);
+
+  useEffect(() => {
+    const createSparkle = () => {
+      const sparkle = document.createElement('div');
+      const size = Math.random() * 3 + 1;
+      const sparkleClass = size > 3 ? 'sparkles-l' : size > 2 ? 'sparkles-m' : 'sparkles-s';
+      
+      sparkle.classList.add(sparkleClass);
+      sparkle.style.width = `${size}px`;
+      sparkle.style.height = `${size}px`;
+      sparkle.style.left = `${Math.random() * 100}%`;
+      sparkle.style.top = `${Math.random() * 100}%`;
+      sparkle.style.animationDuration = `${Math.random() * 2 + 1}s`;
+      sparkle.style.animationDelay = `${Math.random()}s`;
+
+      sparkleRef.current.appendChild(sparkle);
+
+      setTimeout(() => {
+        sparkle.remove();
+      }, 3000);
+    };
+
+    const interval = setInterval(createSparkle, 100);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section
       className="hero-section"
     >
       <div className="hero-overlay"></div>
+      <div className="sparkle-background" ref={sparkleRef}></div>
 
       <div className="hero-main-content">
         <div className="hero-text-content">
@@ -28,11 +57,14 @@ const Hero = () => {
 
         <div className="hero-circle-visualization">
           <div className="hero-circle-main">
-            <span className="hero-specialists-text">Pick your poison</span>
+            <div className="placeholder-image">More Content Here</div>
+            
             <div className="profile-image profile-1"></div>
             <div className="profile-image profile-2"></div>
             <div className="profile-image profile-3"></div>
             <div className="profile-image profile-4"></div>
+            <div className="profile-image profile-5"></div>
+            <div className="profile-image profile-6"></div>
           </div>
         </div>
       </div>

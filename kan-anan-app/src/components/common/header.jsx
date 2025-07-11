@@ -18,14 +18,7 @@ const Header = () => {
           <Link to="/about" className="nav-link">About</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
         </nav>
-        <div className="header-actions">
-          <button className="cart-button">
-            <FiShoppingCart className="cart-icon" />
-            <span className="cart-badge">
-              0
-            </span>
-          </button>
-        </div>
+        
       </div>
     </header>
     );
