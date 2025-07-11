@@ -36,8 +36,11 @@
   50% {
     opacity: 1;
   }
+  80% {
+    opacity: 1;
+  }
   100% {
-    transform: scale(1.5) rotate(360deg);
+    transform: scale(2.5) rotate(360deg);
     opacity: 0;
   }
 }
@@ -47,22 +50,22 @@
   border-radius: 50%;
   background: white;
   box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px #b7a2c9, 0 0 20px #b7a2c9;
-  animation: sparkle 5s linear infinite;
+  animation: sparkle 8s linear infinite;
 }
 
 .sparkles-s {
-  width: 4px;
-  height: 4px;
+  width: 12px;
+  height: 12px;
 }
 
 .sparkles-m {
-  width: 8px;
-  height: 8px;
+  width: 24px;
+  height: 24px;
 }
 
 .sparkles-l {
-  width: 12px;
-  height: 12px;
+  width: 36px;
+  height: 36px;
 }
 
 .hero-main-content {
@@ -236,6 +239,8 @@
   background-image: url('../../../assets/item1.jpg'); 
   background-size: cover;
   background-position: center;
+  width: 100px;
+  height: 100px;
 }
 
 .profile-2 {
@@ -246,6 +251,8 @@
   background-size: cover;
   background-position: center;
   animation-delay: 0.5s;
+  width: 100px;
+  height: 100px;
 }
 
 .profile-3 {
@@ -256,6 +263,8 @@
   background-size: cover;
   background-position: center;
   animation-delay: 1s;
+  width: 100px;
+  height: 100px;
 }
 
 .profile-4 {
@@ -266,6 +275,8 @@
   background-size: cover;
   background-position: center;
   animation-delay: 1.5s;
+  width: 100px;
+  height: 100px;
 }
 
 .profile-5 {
@@ -276,6 +287,8 @@
   background-size: cover;
   background-position: center;
   animation-delay: 2s;
+  width: 100px;
+  height: 100px;
 }
 
 .profile-6 {
@@ -286,5 +299,7 @@
   background-size: cover;
   background-position: center;
   animation-delay: 2.5s;
+  width: 100px;
+  height: 100px;
 }
 
