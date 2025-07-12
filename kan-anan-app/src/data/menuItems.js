@@ -1,3 +1,19 @@
+import adobo from '../assets/adobo.jpg';
+import sinigang from '../assets/sinigang.jpg';
+import kawali from '../assets/kawali.jpg';
+import pancit from '../assets/pancit.jpg';
+import lumpia from '../assets/lumpia.jpg';
+import item4 from '../assets/item4.jpg';
+import buko from '../assets/buko.jpg';
+import inasal from '../assets/inasal.jpg';
+import kinilaw from '../assets/kinilaw.jpg';
+import lapaz from '../assets/lapaz.jpg';
+import karekare from '../assets/karekare.jpg';
+import pata from '../assets/pata.jpg';
+import gata from '../assets/gata.jpg';
+import pinakbet from '../assets/pinakbet.jpg';
+import sisig from '../assets/sisig.jpg';
+
 const menuItems = [
   {
     id: 1,
@@ -5,7 +21,7 @@ const menuItems = [
     category: 'Main Course',
     description: 'A popular Filipino dish made of pork or chicken, simmered in vinegar, soy sauce, garlic, and peppercorns.',
     price: 250.00,
-    image: '/src/assets/adobo.jpg',
+    image: adobo,
   },
   {
     id: 2,
@@ -13,7 +29,7 @@ const menuItems = [
     category: 'Main Course',
     description: 'A sour and savory Filipino soup or stew characterized by its sour and savory taste. It is most often associated with tamarind.',
     price: 280.00,
-    image: '/src/assets/sinigang.jpg',
+    image: sinigang,
   },
   {
     id: 3,
@@ -21,7 +37,7 @@ const menuItems = [
     category: 'Main Course',
     description: 'Crispy deep-fried pork belly, a popular Filipino dish.',
     price: 350.00,
-    image: '/src/assets/kawali.jpg',
+    image: kawali,
   },
   {
     id: 4,
@@ -29,7 +45,7 @@ const menuItems = [
     category: 'Noodles',
     description: 'Stir-fried noodles with vegetables and meat, a classic Filipino noodle dish.',
     price: 180.00,
-    image: '/src/assets/pancit.jpg',
+    image: pancit,
   },
   {
     id: 5,
@@ -37,7 +53,7 @@ const menuItems = [
     category: 'Appetizer',
     description: 'Crispy fried spring rolls filled with ground pork and vegetables.',
     price: 120.00,
-    image: '/src/assets/lumpia.jpg',
+    image: lumpia,
   },
   {
     id: 6,
@@ -45,7 +61,7 @@ const menuItems = [
     category: 'Dessert',
     description: 'A popular Filipino cold dessert which is a concoction of crushed ice, evaporated milk and various ingredients.',
     price: 150.00,
-    image: '/src/assets/item4.jpg',
+    image: item4,
   },
   {
     id: 7,
@@ -53,7 +69,7 @@ const menuItems = [
     category: 'Dessert',
     description: 'A Filipino dessert made from pandan-flavored gelatin, young coconut, and cream.',
     price: 100.00,
-    image: '/src/assets/buko.jpg',
+    image: buko,
   },
   {
     id: 8,
@@ -61,7 +77,7 @@ const menuItems = [
     category: 'Main Course',
     description: 'Grilled chicken marinated in a mixture of calamansi, vinegar, and annatto oil.',
     price: 290.00,
-    image: '/src/assets/inasal.jpg',
+    image: inasal,
   },
   {
     id: 9,
@@ -69,7 +85,7 @@ const menuItems = [
     category: 'Appetizer',
     description: 'Filipino ceviche, made with fresh raw fish marinated in vinegar or citrus juices.',
     price: 220.00,
-    image: '/src/assets/kinilaw.jpg',
+    image: kinilaw,
   },
   {
     id: 10,
@@ -77,7 +93,7 @@ const menuItems = [
     category: 'Noodles',
     description: 'A noodle soup made with pork offal, crushed chicharon, chicken stock, and fresh egg noodles.',
     price: 200.00,
-    image: '/src/assets/lapaz.jpg',
+    image: lapaz,
   },
   {
     id: 11,
@@ -85,7 +101,7 @@ const menuItems = [
     category: 'Main Course',
     description: 'A Filipino stew complemented with a thick savory peanut sauce. It is made from a variation of oxtail, pork hocks, calves feet, pig feet, beef stew meat, and occasionally offal or tripe.',
     price: 380.00,
-    image: '/src/assets/karekare.jpg',
+    image: karekare,
   },
   {
     id: 12,
@@ -93,7 +109,7 @@ const menuItems = [
     category: 'Main Course',
     description: 'Deep-fried pork hock, a popular Filipino dish.',
     price: 450.00,
-    image: '/src/assets/pata.jpg',
+    image: pata,
   },
   {
     id: 13,
@@ -101,7 +117,7 @@ const menuItems = [
     category: 'Vegetarian',
     description: 'Mixed vegetables cooked in coconut milk.',
     price: 180.00,
-    image: '/src/assets/gata.jpg',
+    image: gata,
   },
   {
     id: 14,
@@ -109,7 +125,7 @@ const menuItems = [
     category: 'Vegetarian',
     description: 'A Filipino dish consisting of mixed vegetables steamed in fish or shrimp sauce.',
     price: 190.00,
-    image: '/src/assets/pinakbet.jpg',
+    image: pinakbet,
   },
   {
     id: 15,
@@ -117,7 +133,7 @@ const menuItems = [
     category: 'Main Course',
     description: 'A Filipino dish made from parts of pig\'s head and liver, usually seasoned with calamansi and chili peppers.',
     price: 300.00,
-    image: '/src/assets/sisig.jpg',
+    image: sisig,
   },
 ];
 
